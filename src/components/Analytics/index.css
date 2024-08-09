@@ -1,0 +1,40 @@
+
+.analytics-view-container{
+   
+    height: 80vw;
+   width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.over-view-text{
+    font-family: "roboto";
+    font-size: 28px;
+    font-weight: 600;
+}
+.middle-section-container{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    
+    
+}
+@media screen and (max-width: 768px) {
+    .middle-section-container{
+        flex-direction: column;
+    }
+}
+.dark-analytic{
+    background-color: #242424;
+}
+.light-analytic{
+    background-color: #ffffff;
+}
+.blue-color{
+    color: #3e1adb;
+}
+.black-color{
+    color: #000000;
+}

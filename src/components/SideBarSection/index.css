@@ -1,0 +1,51 @@
+.side-bar-section-container{
+    padding: 10px;
+    width: 20%;
+    background-color: #30302e;
+    height: 80vh;
+    
+}
+@media screen and (max-width:768px) {
+    .side-bar-section-container{
+        
+        display: none;
+    }
+}
+
+.harmburget-menu{
+    padding: 10px;
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .harmburget-menu{
+        display: block;
+    }
+}
+.list-container-side-bar{
+    list-style-type: none;
+    font-family: "Roboto";
+    font-size: 20px;
+    padding-left: 15px;
+}
+.list-itrms-side-bar{
+    margin-bottom: 15px;
+}
+.button-harm-burger-menu{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.menu-list-container{
+    list-style-type: none;
+    font-family: "Roboto";
+    font-size: 18px;
+    padding-left: 5px;
+    background-color: transparent;
+}
+.list-itrms-menu-bar{
+    margin-bottom: 10px;
+}
+.link-cusstom-style{
+    text-decoration: none;
+    font-family: "Roboto";
+}

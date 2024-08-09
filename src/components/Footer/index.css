@@ -1,0 +1,53 @@
+.footer-section-container{
+    min-height: 10vh;
+    padding: 10px;
+    background-color: #f7de99;
+}
+.social-network-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Roboto";
+}
+@media screen and (max-width: 768px) {
+    .social-network-container{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+.social-icons-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+}
+@media screen and (max-width: 768px) {
+    .social-icons-container{
+        width: 80%;
+    }
+}
+.hr-line{
+    border: 1px solid #45433f;
+}
+.about-project{
+    font-family: "Roboto";
+    font-size: 16px;
+}
+.social-link-text{
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 800;
+}
+.about-text{
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 800;
+}
+.Dark-footer{
+    background-color: #242322;
+    color: #ffffff;
+}
+.light-footer{
+    background-color: #faf3a2;
+}

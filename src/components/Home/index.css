@@ -1,0 +1,20 @@
+.home-main-container{
+    height: 100vh;
+    
+}
+.side-section-and-main-content-container{
+    height: 80vh;
+    display: flex;
+    
+}
+@media screen and (max-width:768px) {
+    .side-section-and-main-content-container{
+        flex-direction: column;
+    }
+}
+.Dark-home{
+    background-color: #242322;
+}
+.light-home{
+    background-color: #ffffff;
+}

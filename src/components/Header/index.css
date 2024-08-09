@@ -1,0 +1,43 @@
+.header-container{
+    height: 6vh;
+    padding: 20px;
+    border-radius: 5px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.notification-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+}
+@media screen and (min-width: 769px) {
+    .notification-container{
+        width: 20%;
+    }
+}
+.profile-image-text-container{
+    display: flex;
+    align-items: center;
+}
+.profile-text{
+    font-family: "Roboto";
+    font-size: 18px;
+    margin-left: 5px;
+}
+.link-custom{
+    text-decoration: none;
+}
+.button-darkmode{
+    border: none;
+    background-color: transparent;
+}
+.dark{
+    background-color: #242322;
+    color: #ffffff;
+}
+.light{
+    background-color: #faf3a2;
+}

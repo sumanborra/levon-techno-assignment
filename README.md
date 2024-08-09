@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Components
+    the Levon company responsive dashboard projects using React
+    In this project Used components and ReactContext and state management react icons 
+    All the components are in the components Folder src/components
+    Used react Recharts for Analysing data 
+    ReactContext used for Manage the state value for dark and light mode themes
+    
